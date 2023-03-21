@@ -1,2 +1,2 @@
 # Projeto Interface
- Uma interface intuitiva ao usuário.
+ Desenvolvendo uma interface que seja de fácil uso e acessibilidade aos usuários.
