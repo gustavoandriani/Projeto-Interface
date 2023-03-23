@@ -3,11 +3,10 @@ const getHours = () => {
   const dataPagina = document.getElementById('data')
   var dataAtual = new Date();
   var horas = dataAtual.getHours();
+  var hora = horas < 10 ? `0${horas}` : horas
   var minutos = dataAtual.getMinutes();
-  var dia = dataAtual.getDate();
-  var mes = dataAtual.getMonth();
-  var ano = dataAtual.getFullYear();
-  horasPagina.innerHTML = horas + ':' + minutos
+  var minuto = minutos < 10 ? `0${minutos}` : minutos
+  horasPagina.innerHTML = hora + ':' + minuto
 }
 
 setInterval(() => {
